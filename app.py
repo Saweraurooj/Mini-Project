@@ -7,7 +7,7 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 
 app = Flask(__name__)
 ##postgress
-engine = create_engine("mysql+pymysql://root:mahesh@localhost:3306/fee_management")
+engine = create_engine("mysql+pymysql://root:sawera@localhost:3306/mini_project")
 
 
 db = scoped_session(sessionmaker(bind=engine))
